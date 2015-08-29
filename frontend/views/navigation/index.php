@@ -30,7 +30,7 @@ $this->title = '主页';
             <div class="form-group">
                 <div class="col-lg-6">
                     <div class="input-group" style="width: 500px;">
-                        <input type="text" class="form-control" id="baidu" autocomplete="off">
+                        <input type="text" class="form-control" name="word" id="baidu" placeholder=""x autocomplete="off">
                         <div class="input-group-btn">
                             <ul class="dropdown-menu dropdown-menu-right" role="menu" style="padding-top: 0px; max-height: 375px; max-width: 800px; overflow: auto; width: auto; transition: 0.5s; -webkit-transition: 0.5s; min-width: 300px; left: -267px; right: auto;">
                             </ul>
@@ -39,7 +39,7 @@ $this->title = '主页';
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-default">百度一下</button>
+            <button type="button" onclick="javascript:submit();" class="btn btn-default">百度一下</button>
         </form>
     </div>
     <div class="div_tianqi">
